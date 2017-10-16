@@ -171,9 +171,20 @@
                         <div id="brands" class="content-section-a">
                             <div class="container center-anchor">
                                 <h1>Our Brands</h1>
-                                <div class="row">
+                                <ul class="list-inline intro-social-buttons">
+                                    <li>
+                                        <button type="button" class="control btn btn-default btn-lg" data-filter="all">All</button>
+                                    </li>
+                                    <li>
+                                        <button type="button" class="control btn btn-default btn-lg" data-filter=".tactical">Tactical</button>
+                                    </li>
+                                    <li>
+                                        <button type="button" class="control btn btn-default btn-lg" data-filter=".bike-outdoor">Bike/Outdoor</button>
+                                    </li>
+                                </ul>
+                                <div class="row brand-list">
                                     <!--SUREFIRE-->
-                                    <div class="col-xs-12 col-md-4">
+                                    <div class="col-xs-12 col-md-4 mix tactical">
                                         <a class="thumbnail" href="#SFModal" role="button" data-toggle="modal">
                                         <img src="img/logoedits/surefire.png"></a>
                                         <!-- Modal -->
@@ -213,7 +224,7 @@
                                         </div>
                                     </div>
                                     <!--511-->
-                                    <div class="col-xs-12 col-md-4">
+                                    <div class="col-xs-12 col-md-4 mix tactical">
                                         <a class="thumbnail" href="#511Modal" role="button" data-toggle="modal">
                                         <img src="img/logoedits/511.png"></a>
                                         <!-- Modal -->
@@ -243,7 +254,7 @@
                                         </div>
                                     </div>
                                     <!--ASP-->
-                                    <div class="col-xs-12 col-md-4">
+                                    <div class="col-xs-12 col-md-4 mix tactical">
                                         <a class="thumbnail" href="#ASPModal" role="button" data-toggle="modal">
                                         <img src="img/logoedits/asp.png"></a>
                                         <!-- Modal -->
@@ -298,10 +309,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row">
                                     <!--TEAMWENDY-->
-                                    <div class="col-xs-12 col-md-4">
+                                    <div class="col-xs-12 col-md-4 mix tactical">
                                         <a class="thumbnail" href="#TWModal" role="button" data-toggle="modal">
                                         <img src="img/logoedits/teamwendy.png"></a>
                                         <!-- Modal -->
@@ -346,7 +355,7 @@
                                         </div>
                                     </div>
                                     <!--SMITHELITE-->
-                                    <div class="col-xs-12 col-md-4">
+                                    <div class="col-xs-12 col-md-4 mix tactical">
                                         <a class="thumbnail" href="#SMITHModal" role="button" data-toggle="modal">
                                         <img src="img/logoedits/smithelitelogo.png"></a>
                                         <!-- Modal -->
@@ -402,7 +411,7 @@
                                         </div>
                                     </div>
                                     <!--SMITHPERFORMANCE-->
-                                    <div class="col-xs-12 col-md-4">
+                                    <div class="col-xs-12 col-md-4 mix bike-outdoor">
                                         <a class="thumbnail" href="#SMITHPModal" role="button" data-toggle="modal">
                                         <img src="img/logoedits/smith.png"></a>
                                         <!-- Modal -->
@@ -435,10 +444,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row">
                                     <!--BREAKTHROUGH-->
-                                    <div class="col-xs-12 col-md-4">
+                                    <div class="col-xs-12 col-md-4 mix tactical">
                                         <a class="thumbnail" href="#BTModal" role="button" data-toggle="modal">
                                         <img src="img/logoedits/breakthrough.png"></a>
                                         <!-- Modal -->
@@ -495,7 +502,7 @@
                                         </div>
                                     </div>
                                     <!--FIRSTSPEAR-->
-                                    <div class="col-xs-12 col-md-4">
+                                    <div class="col-xs-12 col-md-4 mix tactical">
                                         <a class="thumbnail" href="#FSModal" role="button" data-toggle="modal">
                                         <img src="img/logoedits/firstspear.png"></a>
                                         <!-- Modal -->
@@ -542,7 +549,7 @@
                                         </div>
                                     </div>
                                     <!--ARCTERYX -->
-                                    <div class="col-xs-12 col-md-4">
+                                    <div class="col-xs-12 col-md-4 mix tactical">
                                         <a class="thumbnail" href="#ARCModal" role="button" data-toggle="modal">
                                         <img src="img/logoedits/arcteryx.png"></a>
                                         <!-- Modal -->
@@ -577,10 +584,8 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row">
                                     <!--SPARTAN-->
-                                    <div class="col-xs-12 col-md-4">
+                                    <div class="col-xs-12 col-md-4 mix tactical">
                                         <a class="thumbnail" href="#STGModal" role="button" data-toggle="modal">
                                         <img src="img/logoedits/spartan.png"></a>
                                         <!-- Modal -->
@@ -638,7 +643,7 @@
                                         </div>
                                     </div>
                                     <!--POINT6-->
-                                    <div class="col-xs-12 col-md-4">
+                                    <div class="col-xs-12 col-md-4 mix bike-outdoor">
                                         <a class="thumbnail" href="#P6Modal" role="button" data-toggle="modal">
                                         <img src="img/logoedits/point6.png"></a>
                                         <!-- Modal -->
@@ -705,7 +710,7 @@
                                         </div>
                                     </div>
                                     <!--POINT6TACTICAL-->
-                                    <div class="col-xs-12 col-md-4">
+                                    <div class="col-xs-12 col-md-4 mix tactical">
                                         <a class="thumbnail" href="#P6TModal" role="button" data-toggle="modal">
                                         <img src="img/logoedits/point6tactical.png"></a>
                                         <!-- Modal -->
@@ -912,5 +917,11 @@
                     <!-- Bootstrap Core JavaScript -->
                     <script src="js/bootstrap.min.js"></script>
                     <script src="js/main.js"></script>
+                    <!-- Mixitup JavaScript -->
+                    <script src="./js/mixitup.min.js"></script>
+                    <script>
+                        var containerEl = document.querySelector('.brand-list');
+                        var mixer = mixitup(containerEl);
+                    </script>
                 </body>
             </html>

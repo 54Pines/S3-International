@@ -156,5 +156,6 @@ text-align: center;
   padding-top: 50px;
 }
 
->>>>>>> Stashed changes
-
+.mixitup-control-active {
+  background: #ccc;
+}
