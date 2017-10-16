@@ -13,8 +13,8 @@ height: 50%;
 }
 
 .thumbnail{
-	background-color: transparent;
-	border: none;
+  background-color: transparent;
+  border: none;
  float: left;
 }
 #wade{
@@ -28,13 +28,13 @@ div.img-div{
 }
 
 .content-section-a{
-	padding-top: 10px;
-	padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .content-section-b{
-	padding-top: 10px;
-	padding-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .item{
@@ -156,5 +156,18 @@ text-align: center;
   padding-top: 50px;
 }
 
->>>>>>> Stashed changes
+.mixitup-control-active {
+  background: #ccc;
+}
+.control{
+  display: inline-block;
+  padding: 0px, 5px, 0px, 5px;
+}
 
+@media (max-width: 767px){
+
+  .control{
+    display: inline-block;
+    padding: 0px, 2px, 0px, 2px;
+  }
+}
