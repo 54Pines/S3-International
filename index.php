@@ -173,13 +173,13 @@
                                 <h1>Our Brands</h1>
                                 <ul class="list-inline intro-social-buttons">
                                     <li>
-                                        <button type="button" class="control btn btn-default btn-lg" data-filter="all">All</button>
+                                        <button type="button" class="btn btn-default btn-lg" data-mixitup-control data-filter="all">All</button>
                                     </li>
                                     <li>
-                                        <button type="button" class="control btn btn-default btn-lg" data-filter=".tactical">Tactical</button>
+                                        <button type="button" class="btn btn-default btn-lg" data-mixitup-control data-filter=".tactical">Tactical</button>
                                     </li>
                                     <li>
-                                        <button type="button" class="control btn btn-default btn-lg" data-filter=".bike-outdoor">Bike/Outdoor</button>
+                                        <button type="button" class="btn btn-default btn-lg" data-mixitup-control data-filter=".bike-outdoor">Bike/Outdoor</button>
                                     </li>
                                 </ul>
                                 <div class="row brand-list">
@@ -921,7 +921,11 @@
                     <script src="./js/mixitup.min.js"></script>
                     <script>
                         var containerEl = document.querySelector('.brand-list');
-                        var mixer = mixitup(containerEl);
+                        var mixer = mixitup(containerEl, {
+                            selectors: {
+                                control: '[data-mixitup-control]'
+                            }
+                        });
                     </script>
                 </body>
             </html>
