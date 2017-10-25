@@ -46,13 +46,13 @@
                             <a href="index.php">Home</a>
                         </li>
                         <li>
-                            <a href="#showroom">About Us</a>
+                            <a href="index.php#aboutus">About Us</a>
                         </li>
                         <li>
-                            <a href="#brands">Our Brands</a>
+                            <a href="index.php#brands">Our Brands</a>
                         </li>
                         <li>
-                            <a href="#team">Our Team</a>
+                            <a href="index.php#team">Our Team</a>
                         </li>
                     </ul>
                 </div>
@@ -135,13 +135,12 @@
                             </li>
                             <li class="footer-menu-divider">&sdot;</li>
                             <li>
-                                <a href="index.html#brands">Our Brands</a>
+                                <a href="index.php#brands">Our Brands</a>
                             </li>
                             <li class="footer-menu-divider">&sdot;</li>
                             <li>
-                                <a href="index.html#team">Our Team</a>
+                                <a href="index.php#team">Our Team</a>
                             </li>
-                            <li class="footer-menu-divider">&sdot;</li>
                         </ul>
                         <p class="copyright text-muted small">Copyright &copy; S3International 2017. All Rights Reserved</p>
                     </div>
