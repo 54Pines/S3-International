@@ -907,7 +907,7 @@
                                             <a href="contact.php">Contact</a>
                                         </li>
                                     </ul>
-                                    <p class="copyright text-muted small">Copyright &copy; S3International 2017. All Rights Reserved</p>
+                                    <p class="copyright text-muted small">Copyright &copy; S3International 2017. All Rights Reserved <a href="http://www.54pines.com"><i class="fa fa-tree" aria-hidden="true"> </i> Design by 54 Pines</a</p>
                                 </div>
                             </div>
                         </div>
